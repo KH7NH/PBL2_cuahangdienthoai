@@ -1,0 +1,4 @@
+1. xem thong tin
+2. sua thong tin
+3. xoa may
+4. them may
