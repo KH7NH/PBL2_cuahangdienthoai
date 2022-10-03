@@ -32,8 +32,8 @@
     <ClInclude Include="Laptop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SmartPhone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="db_laptop.txt" />
   </ItemGroup>
 </Project>

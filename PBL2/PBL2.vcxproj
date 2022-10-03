@@ -134,7 +134,9 @@
   <ItemGroup>
     <ClInclude Include="Laptop.h" />
     <ClInclude Include="SmartDevice.h" />
-    <ClInclude Include="SmartPhone.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="db_laptop.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

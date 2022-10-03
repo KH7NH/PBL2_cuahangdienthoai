@@ -5,12 +5,17 @@
 #include <string>
 using namespace std;
 
-/*istream& operator >> (istream& in, Laptop& lt) {
-	cout << "Nhap ten: "; getline(in, lt.name);
-	cout << "Nhap loai card do hoa: "; getline(in, lt.card);
-	return in;
+Laptop::Laptop(string name, string brand, string color, string price, string card, string weight){
+	this->name = name;
+	this->brand = brand;
+	this->color = color;
+	this->price = price;
+	this->card = card;
+	this->weight = weight;
 }
-ostream& operator << (ostream& out, Laptop a) {
-	out << a.name << endl;
-	return out;
-}*/
+
+void Laptop::Show() {
+	SmartDevice::Show();
+	cout << "Card :" << card << endl;
+	cout << "Weight : " << weight << endl;
+};

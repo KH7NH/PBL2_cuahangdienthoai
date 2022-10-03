@@ -8,8 +8,8 @@ public:
 	string brand;
 	string color;
 	string price;
-	string screen;
-	/*string camera;
+	/*string screen;
+	string camera;
 	string OS;
 	string CPU;
 	string RAM;
@@ -28,4 +28,5 @@ public:
 	string getColor();
 	void setPrice(string Price);
 	string getPrice();
+	void Show();
 };

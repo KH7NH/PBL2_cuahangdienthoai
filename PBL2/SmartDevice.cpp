@@ -48,3 +48,10 @@ void SmartDevice::setPrice(string Price) {
 string SmartDevice::getPrice() {
 	return price;
 }
+
+void SmartDevice::Show() {
+	cout << "Name :" << name << endl;
+	cout << "Brand : " << brand << endl;
+	cout << "Color : " << color << endl;
+	cout << "Price : " << price << endl;
+};
